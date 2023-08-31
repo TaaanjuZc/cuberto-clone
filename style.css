@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: 'Averta CY W01';
 }
+*::selection {
+  color: #fff;
+  background-color: #000;
+}
 
 html, body {
   width: 100%;
@@ -88,4 +92,124 @@ html, body {
 #homeLast p::selection {
   color: #fff;
   background-color: #000;
+}
+
+
+#featured {
+  padding: 10vw 15vw;
+}
+
+.feHeading > h1 {
+  line-height: 1;
+  font-size: 4vw;
+  font-weight: lighter; 
+}
+
+.feHeading > h1:nth-child(2) {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+
+
+#feImages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  /* padding: 0vw 15vw; */
+  margin-top: 5vw;
+  /* border: 2px solid orange;  */
+}
+
+#fLeft {
+  overflow: hidden;
+  width: 45%;
+  height: inherit;
+  /* border: 2px solid green; */
+}
+
+.fLeftLm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: inherit;
+}
+
+.fLeftLm h1 {
+  font-size:  2.5vw;
+  line-height: 1;
+  /* font-weight: 400; */
+  margin: 1.8vw 0;
+}
+
+.fLeftLm h4 {
+  opacity: .5;
+}
+
+.fLeftLm h3 {
+  font-size: 24px;
+}
+
+#fRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 45%;
+  height: inherit;
+  /* border: 2px solid blue; */
+}
+
+#fRight .imgs {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+}
+
+#btnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnDiv button {
+  padding: 20px 50px;
+  border-radius: 100px;
+  border: 1px solid rgb(174, 173, 173);
+  background-color: #fff;
+  font-size: 1vw;
+  letter-spacing: -1px;
+}
+
+#dev {
+  width: 100%;
+  padding: 5vw 15vw;
+}
+
+#dev h1 {
+  font-size: 3.8vw;
+  width: 60%;
+  line-height: 1;
+}
+
+#dev p {
+  font-size: 30px;
+  margin-top: 30px;
+  letter-spacing: -.5px;
+  width: 60%;
+}
+
+#slideDiv {
+  padding: 3vw 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide{
+  width: 30%;
+}
+
+.slide .img{
+  width: 100%;
+  height: 270px;
 }
