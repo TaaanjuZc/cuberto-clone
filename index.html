@@ -5,14 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cuberto</title>
   <link rel="stylesheet" href="style.css">
+  <!-- icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+
 </head>
 <body>
     <!-- header section  -->
 
       <div id="main">
+        <!-- <div id="cursor"></div> -->
         <!-- nav section -->
-          <!-- <div id="home">
+          <div id="home">
               <div id="nav">
                 <img src="https://searchvectorlogo.com/wp-content/uploads/2020/12/cuberto-logo-vector.png" alt="">
                 <div id="right">
@@ -25,9 +36,22 @@
                   We make it happen.
                 </h1>
                 <div class="heading">
-                    <h1>Website</h1>
-                    <h1>Apps</h1>
-                    <h1>Branding</h1>
+                    <div id="elem1" class="elem">
+                      <h1>Website</h1>
+                      <img src="https://i.pinimg.com/originals/44/46/83/444683c349bc0586e00d9d6401b646b2.gif" alt="">
+                      <div id="overlay1" class="overlay"></div>
+                    </div>
+                    <div id="elem2" class="elem">
+                      <h1>Apps</h1>
+                      <img src="https://i.pinimg.com/originals/85/fc/50/85fc507da9103063fa74367e02e539ea.gif" alt="">
+                      <div id="overlay2" class="overlay"></div>
+                    </div>
+                    <div id="elem3" class="elem">
+                      <h1>Branding</h1>
+                      <img src="https://i.pinimg.com/originals/cd/f0/7f/cdf07f5c783fe32ab46931a672d8a31d.gif" alt="">
+                      <div id="overlay3" class="overlay"></div>
+                    </div>
+
                 </div>
             </div>
             <div id="homeLast">
@@ -35,9 +59,9 @@
                   Leading digital agency with solid design and development expertise. We build ready-made websites, branding, UI/UX design, mobile, and web development.applications, and elaborate online business services. 
                 </p>
             </div>
-          </div> -->
+          </div>
 
-          <!-- <div id="featured">
+          <div id="featured">
               <div class="feHeading">
                   <h1>featured</h1>
                   <h1>projects</h1>
@@ -70,19 +94,20 @@
                 
                 <div id="fRight">
                   <div class="imgs">
-
+                      <img src="https://cdn.cuberto.com/cb/projects/riyadh/cover.jpg" alt="">
+                      <!-- <img src="//cdn.cuberto.com/cb/projects/zelt/cover.jpg" alt="">
+                      <img src="//cdn.cuberto.com/cb/projects/ferrumpipe/cover.jpg" alt="">
+                      <img src="//cdn.cuberto.com/cb/projects/magma/cover.jpg" alt=""> -->
                   </div>
                 </div>
   
               </div>
 
-              <div id="btnDiv">
+              <div class="btnDiv">
                 <button>view all products</button>
               </div>
               
-          </div> -->
-
-
+          </div>
 
           <div id="dev">
               <h1>
@@ -103,34 +128,37 @@
                     Design Course
                   </div>
                   <h3>
-                    How To Make Epic Website // Frontend development
+                    How To Make Epic Website /&nbsp;/ Frontend development
                   </h3>
               </div>
               <div class="slide">
                   <div class="img">
-                    <img src="https://cdn.cuberto.com/cb/upload/40bf072f506912f62412b0de381e350d.png" alt="">
+                    <img src="https://cdn.cuberto.com/cb/upload/885fbbc555395f745746b23b73f539f5.png" alt="">
                   </div>
                   <div class="tag">
-                    Design Course
+                    Dev Source
                   </div>
                   <h3>
-                    How To Make Epic Website // Frontend development
+                    Cuberto Mouse Followr
                   </h3>
               </div>
               <div class="slide">
                   <div class="img">
-                    <img src="https://cdn.cuberto.com/cb/upload/40bf072f506912f62412b0de381e350d.png" alt="">
+                    <img src="https://cdn.cuberto.com/cb/upload/99d9ee549abf01940d4b1cfa04734b7d.jpg" alt="">
                   </div>
                   <div class="tag">
-                    Design Course
+                    Dev Source
                   </div>
                   <h3>
-                    How To Make Epic Website // Frontend development
+                    Making Switch With SVG Display
                   </h3>
               </div>
           </div>
-      </div>
 
+          <div class="btnDiv">
+            <button>view all products</button>
+          </div>
+      </div>
 
       <script src="script.js"></script>
 </body>
